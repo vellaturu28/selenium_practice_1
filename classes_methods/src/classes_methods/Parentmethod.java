@@ -11,8 +11,6 @@ public class Parentmethod {
 		m.Headervalidation();
 
 		Childmethod.Footervalidation();
-		
-//		Childmethod.Headervalidation();
 
 	}
 
