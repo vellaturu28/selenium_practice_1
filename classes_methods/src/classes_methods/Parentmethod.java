@@ -10,7 +10,7 @@ public class Parentmethod {
 		Childmethod m = new Childmethod();
 		m.Headervalidation();
 
-		Childmethod.Footervalidation();
+		Childmethod.Footervalidation(); 
 
 	}
 
