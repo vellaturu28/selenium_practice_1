@@ -8,21 +8,21 @@ public class TestinIE {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-//selenium  test case
-		
-		
-		
-		
-System.setProperty("webdriver.ie.driver","C:\\Users\\Madhrui\\Downloads\\MicrosoftWebDriver.exe");
-		
-		WebDriver driver=new InternetExplorerDriver();
-					
-		driver.get("http://google.com");
-		
+
+        // test case 
+
+		System.setProperty("webdriver.ie.driver", "C:\\Users\\Madhrui\\Downloads\\MicrosoftWebDriver.exe");
+
+		WebDriver driver = new InternetExplorerDriver();
+		driver.get("https://www.google.com");
+
 		System.out.println(driver.getTitle());
 		
-		
+		// System.out.println(driver.getPageSource());
+		 driver.get("https://www.w3schools.com");
+		 driver.navigate().back();
+		 driver.navigate().forward();
+		 System.out.println(driver.getTitle());
 	}
 
 }
