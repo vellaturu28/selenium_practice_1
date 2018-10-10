@@ -21,6 +21,8 @@ public class TestinChrome {
 		driver.navigate().back();
 		driver.navigate().forward();
 		System.out.println(driver.getTitle());
+		driver.close();// Which closes the current window of the operation
+		//driver.quit(); // which closes all the windows that is opened by operation
 	}
 
 }

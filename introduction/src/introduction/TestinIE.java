@@ -23,6 +23,8 @@ public class TestinIE {
 		 driver.navigate().back();
 		 driver.navigate().forward();
 		 System.out.println(driver.getTitle());
+		 driver.quit();
+		 
 	}
 
 }
