@@ -1,4 +1,4 @@
-package introduction;
+package Selenium_Excercises;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
