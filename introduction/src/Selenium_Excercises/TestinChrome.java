@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestinChrome {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		// driver objects based on browsers
 		// x driver = new x();
 
