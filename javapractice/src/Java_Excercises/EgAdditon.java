@@ -1,4 +1,4 @@
-package javapractice;
+package Java_Excercises;
 
 public class EgAdditon {
 
