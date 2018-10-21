@@ -19,9 +19,10 @@ public class ElementLocat_Chrome {
 		
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Books");
 		driver.findElement(By.className("nav-input")).click();
-		driver.findElement(By.linkText("Amazon Home")).click();
+		//driver.findElement(By.linkText("Amazon Home")).click();
+		driver.findElement(By.xpath("//*[@id='nav-subnav']/a[1]/span")).click();		
+		driver.findElement(By.linkText("Shop by Room")).click();		
 		driver.close();
 
 	}
-
 }

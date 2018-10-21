@@ -24,6 +24,5 @@ public class XpathCSS {
 		driver.findElement(By.cssSelector("#email")).sendKeys("csspath@gmail.com");
 		driver.findElement(By.cssSelector("#pass")).sendKeys("password");
 		driver.findElement(By.cssSelector("#u_0_2")).click();
-
 	}
 }
