@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class Nationwide_excercise {
+public class Nationwide_Excercise {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
