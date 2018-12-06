@@ -15,16 +15,19 @@ public class IamnotaROBOT {
 		driver.get("https://spinbot.com/Login");
 		driver.manage().window().maximize();
 		Thread.sleep(2000L);
+
 		System.out.println(driver.findElements(By.tagName("iframe")).size());
 
 		int number = findframenumber(driver, By.xpath("//*[@id='recaptcha-anchor']/div[5]"));
 		driver.switchTo().frame(number);
 		driver.findElement(By.xpath("//*[@id='recaptcha-anchor']/div[5]")).click();
+		driver.switchTo().defaultContent();
 
-		Thread.sleep(3000L);
-		int number1 = findframenumber(driver,(By.xpath("//button[@class='rc-button-default goog-inline-block']")));
+		Thread.sleep(2000L);
+		int number1 = findframenumber(driver, (By.xpath("//*[@id='recaptcha-verify-button']")));
 		driver.switchTo().frame(number1);
-		driver.findElement(By.xpath("//button[@class='rc-button-default goog-inline-block']")).click();
+		driver.findElement(By.xpath("//*[@id='recaptcha-verify-button']")).click();
+		Thread.sleep(3000L);
 		driver.quit();
 	}
 
