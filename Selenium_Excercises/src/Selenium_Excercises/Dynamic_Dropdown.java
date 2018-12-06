@@ -37,9 +37,6 @@ public class Dynamic_Dropdown {
 		Thread.sleep(3000);		
 
 		driver.findElement(By.xpath("//input[@id='btnclosepaxoption']")).click();
-
-		
-		
 		driver.quit();
 
 	}

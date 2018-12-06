@@ -28,10 +28,10 @@ public class Checkbox_Radiobuttons {
 		driver.findElement(By.xpath("//input[@id='ctl00_mainContent_rbtnl_Trip_0']")).click();
 		driver.findElement(By.xpath("//input[@id='ctl00_mainContent_rbtnl_Trip_1']")).click();
 		driver.findElement(By.xpath("//input[@id='ctl00_mainContent_rbtnl_Trip_2']")).click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//a[@id='MultiCityModelAlert']")).click();	
 		
-		//driver.close();
+		driver.close();
 
 	}
 	
